@@ -1,0 +1,46 @@
+.contact {
+  background-color: #2f303a;
+}
+
+.contact-title {
+  display: flex;
+}
+
+.contact-list {
+  margin-top: 20px;
+}
+
+.contact-item {
+  margin-bottom: 9px;
+  & :hover,
+  & :focus {
+    color: var(--accent-color);
+  }
+}
+
+.contact-item-adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: var(--secondary-text-color);
+  transition: color 250ms linear;
+}
+
+.contact-item-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms linear;
+}
+
+.contact-item-tel {
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms linear;
+}

@@ -1,1 +1,2 @@
-# homework7
+# slavik-sumish
+Репозиторий для тренировки 
